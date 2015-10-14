@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>com.peploleum.jeebpmaster</artifactId>
+	<packaging>war</packaging>
+	<name>com.peploleum.jeebpmaster Maven Webapp</name>
+	<url>http://github.com/peploleum</url>
+	<parent>
+		<groupId>com.peploleum.jeeboilerplate</groupId>
+		<artifactId>com.peploleum.jeebpparent</artifactId>
+		<version>${project.version}</version>
+		<relativePath>../com.peploleum.jeebpparent</relativePath>
+	</parent>
+	<build>
+		<finalName>com.peploleum.jeebpmaster</finalName>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>com.peploleum.jeeboilerplate</groupId>
+			<artifactId>com.peploleum.jeeservice</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.peploleum.jeeboilerplate</groupId>
+			<artifactId>com.peploleum.jeebean-one</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.peploleum.jeeboilerplate</groupId> -->
+<!-- 			<artifactId>com.peploleum.jeebean-two</artifactId> -->
+<!-- 			<version>${project.version}</version> -->
+<!-- 		</dependency> -->
+	</dependencies>
+</project>

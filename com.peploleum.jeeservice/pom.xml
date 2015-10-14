@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>com.peploleum.jeeservice</artifactId>
+	<parent>
+		<groupId>com.peploleum.jeeboilerplate</groupId>
+		<artifactId>com.peploleum.jeebpparent</artifactId>
+		<version>${project.version}</version>
+		<relativePath>../com.peploleum.jeebpparent</relativePath>
+	</parent>
+	<name>com.peploleum.jeeservice</name>
+	<url>http://github.com/peploleum</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+</project>
