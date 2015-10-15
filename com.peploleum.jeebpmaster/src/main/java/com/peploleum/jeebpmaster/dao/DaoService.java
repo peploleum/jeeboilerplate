@@ -1,9 +1,9 @@
 package com.peploleum.jeebpmaster.dao;
 
 import javax.annotation.PostConstruct;
-import javax.enterprise.context.RequestScoped;
+import javax.enterprise.context.ApplicationScoped;
 
-@RequestScoped
+@ApplicationScoped
 public class DaoService {
 
 	public String produceData() {
