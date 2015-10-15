@@ -7,7 +7,7 @@ import javax.enterprise.context.RequestScoped;
 public class DaoService {
 
 	public String produceData() {
-		return "data";
+		return " data";
 	}
 
 	@PostConstruct

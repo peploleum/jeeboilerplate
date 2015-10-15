@@ -8,7 +8,7 @@ import javax.ws.rs.core.MediaType;
 
 import com.peploleum.jeecdi.service.SomethingService;
 
-@Path("")
+@Path("rest")
 public class RestService {
 
 	@Inject
