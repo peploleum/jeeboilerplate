@@ -33,7 +33,6 @@ public class DummyRestService {
 	@Path("/content")
 	@Produces(MediaType.TEXT_PLAIN)
 	public String getSomething() {
-
 		return this.request.getServerName() + this.somethingService.getSomething();
 	}
 
