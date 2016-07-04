@@ -3,10 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.peploleum.jeeboilerplate</groupId>
-	<artifactId>com.peploleum.jeebpparent</artifactId>
+	<artifactId>jeebpparent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>com.peploleum.jeebpparent</name>
+	<name>jeebpparent</name>
 	<url>http://github.com/peploleum</url>
 
 	<properties>
@@ -139,10 +139,10 @@
 		</plugins>
 	</build>
 	<modules>
-		<module>../com.peploleum.jeebpmaster</module>
-		<module>../com.peploleum.jeeservice</module>
-		<module>../com.peploleum.jeebean-one</module>
-		<module>../com.peploleum.jeebean-two</module>
+		<module>../jeebpmaster</module>
+		<module>../jeeservice</module>
+		<module>../jeebean-one</module>
+		<module>../jeebean-two</module>
 	</modules>
 
 </project>

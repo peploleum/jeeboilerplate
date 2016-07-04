@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.peploleum.jeeboilerplate</groupId>
-	<artifactId>com.peploleum.jeecdi</artifactId>
+	<artifactId>jeecdi</artifactId>
 	<packaging>war</packaging>
 	<version>http://github.com/peploleum</version>
 	<name>com.peploleum.jeecdi Maven Webapp</name>
@@ -61,6 +61,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>com.peploleum.jeecdi</finalName>
+		<finalName>jeecdi</finalName>
 	</build>
 </project>

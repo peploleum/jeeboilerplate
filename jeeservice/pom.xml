@@ -2,14 +2,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>com.peploleum.jeeservice</artifactId>
+	<artifactId>jeeservice</artifactId>
 	<parent>
 		<groupId>com.peploleum.jeeboilerplate</groupId>
-		<artifactId>com.peploleum.jeebpparent</artifactId>
+		<artifactId>jeebpparent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../com.peploleum.jeebpparent</relativePath>
+		<relativePath>../jeebpparent</relativePath>
 	</parent>
-	<name>com.peploleum.jeeservice</name>
+	<name>jeeservice</name>
 	<url>http://github.com/peploleum</url>
 
 	<properties>

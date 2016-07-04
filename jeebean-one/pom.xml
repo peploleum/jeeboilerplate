@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>com.peploleum.jeebean-one</artifactId>
+	<artifactId>jeebean-one</artifactId>
 	<parent>
 		<groupId>com.peploleum.jeeboilerplate</groupId>
-		<artifactId>com.peploleum.jeebpparent</artifactId>
+		<artifactId>jeebpparent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../com.peploleum.jeebpparent</relativePath>
+		<relativePath>../jeebpparent</relativePath>
 	</parent>
-	<name>com.peploleum.jeebean-one</name>
+	<name>jeebean-one</name>
 	<url>http://github.com/peploleum</url>
 
 	<properties>
@@ -17,7 +17,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.peploleum.jeeboilerplate</groupId>
-			<artifactId>com.peploleum.jeeservice</artifactId>
+			<artifactId>jeeservice</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
