@@ -9,10 +9,10 @@ public class UserContextBean2 implements UserContextService {
     @Override
     public UserContextDto getSomething() {
         try {
-            Thread.sleep(2* 1000);
+            Thread.sleep(2 * 1000);
             final UserContextDto toto = new UserContextDto("hello tutu", Arrays.asList(new String[]{"Network", "Maps", "Forms", "Tables"}));
             return toto;
-        } catch (InterruptedException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
        return null;

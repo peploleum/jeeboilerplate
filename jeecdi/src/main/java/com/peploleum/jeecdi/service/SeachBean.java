@@ -28,7 +28,8 @@ public class SeachBean implements SearchService {
 
     @Override
     public List<SearchDto> getResult() {
-        return searchDtoList;
+        final List<SearchDto> searchDtos = searchDtoList.subList(0, 9);
+        return searchDtos;
     }
 
     @Override
@@ -48,7 +49,13 @@ public class SeachBean implements SearchService {
         if (searchDtoList != null) {
             for (SearchDto searchDto : searchDtoList) {
                 if (searchDto.getId().contains(content))
-                    resultList.add(searchDto);
+                {
+                    if (resultList.size() < 10) {
+                        resultList.add(searchDto);
+                    } else {
+                        break;
+                    }
+                }
             }
         }
         return resultList;
